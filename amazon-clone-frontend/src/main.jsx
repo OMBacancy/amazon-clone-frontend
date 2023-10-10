@@ -1,10 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+// Create a Material-UI theme
+const theme = createTheme();
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* Apply the Material-UI theme to your app */}
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
-)
+  document.getElementById('root')
+);
