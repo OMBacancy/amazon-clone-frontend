@@ -4,8 +4,8 @@ const theme = createTheme({
     palette: {
         primary: {
             light: '#e6ecfc',
-            main: '#142659',
-            dark: '#142659',
+            main: '#131921',
+            dark: '#131921',
             contrastText: '#fff',
         },
         secondary: {
@@ -19,7 +19,7 @@ const theme = createTheme({
         }
     },
     typography: {
-        fontFamily: 'monospace',
+        fontFamily: 'sans-serif',
         fontSize: 13,
     }
 });
