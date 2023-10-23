@@ -1,5 +1,9 @@
 export default function Home() {
-    return (<>
-        <h1>Home</h1>
-    </>)
+    return (
+        <div style={{ marginTop: "100px", height: "50vh" }}>
+            <center>
+                <h1>Welcome</h1>
+            </center>
+        </div>
+    )
 }

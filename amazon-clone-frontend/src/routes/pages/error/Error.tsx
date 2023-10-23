@@ -16,7 +16,7 @@ function Error() {
                 404
             </Typography>
             <Typography variant="h6" sx={{mb: 3}}>
-                This route is deserted since 1608 AD
+                This route is deserted since 404 AD
             </Typography>
             <Button variant="contained" onClick={() => navigate("/home")}>Home</Button>
         </Box>

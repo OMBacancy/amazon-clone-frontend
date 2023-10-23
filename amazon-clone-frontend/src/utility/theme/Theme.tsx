@@ -4,9 +4,10 @@ const theme = createTheme({
     palette: {
         primary: {
             light: '#e6ecfc',
-            main: '#131921',
-            dark: '#131921',
+            main: '#0f1111',
+            dark: '#142659',
             contrastText: '#fff',
+            cartCount: '#f08804'
         },
         secondary: {
             light: '#ff7961',
